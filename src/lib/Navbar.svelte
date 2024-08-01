@@ -38,5 +38,11 @@
     text-decoration: none;
     color: inherit;
     padding: 10px;
+    transition: 250ms;
+  }
+
+  a:hover {
+    color: #6d6d6d;
+    transition: 250ms;
   }
 </style>

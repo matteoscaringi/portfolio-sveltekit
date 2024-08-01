@@ -39,8 +39,12 @@
   .greeting {
     display: flex;
     flex-direction: row;
+    width: 100%;
 
-    justify-content: center;
+    padding-left: 65px;
+    padding-right: 65px;
+
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -51,12 +55,18 @@
   }
 
   .greeting-text {
-    line-height: 10px;
     font-family: Montserrat, sans-serif;
 
-    margin-left: 65px;
-
     color: black;
+  }
+
+  .social-icons{
+    margin-top: 10px;
+  }
+
+  h3, h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   a,
@@ -71,9 +81,5 @@
   a:hover {
     color: #6d6d6d;
     transition-duration: 250ms;
-  }
-
-  img {
-    margin-left: 750px;
   }
 </style>
