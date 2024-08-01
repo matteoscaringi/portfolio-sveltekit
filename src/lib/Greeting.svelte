@@ -56,7 +56,6 @@
 
   .greeting-text {
     font-family: Montserrat, sans-serif;
-
     color: black;
   }
 
