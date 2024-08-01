@@ -20,9 +20,7 @@
   }
 
   .navbar {
-    padding: 45px 50px;
-    justify-content: space-between;
-
+    padding: 25px;
     background-color: #f6debf;
 
     @media (max-width: 768px) {
