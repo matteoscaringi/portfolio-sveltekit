@@ -1,13 +1,9 @@
 <script lang="ts">
-
 </script>
 
-<main>
-
-</main>
+<main></main>
 
 <style lang="scss">
-    main {
-
-    }
+  main {
+  }
 </style>

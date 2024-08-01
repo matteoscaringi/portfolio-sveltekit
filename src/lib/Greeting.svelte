@@ -5,8 +5,6 @@
 
 <main>
   <div class="greeting">
-    <img class="pfp" src="../../pfp.png" alt="Matteo Scaringi, with filter." />
-
     <div class="greeting-text">
       <h1>Hello there!</h1>
       <h3>I'm Matteo, your average developer and video editor.</h3>
@@ -21,6 +19,8 @@
         >
       </div>
     </div>
+
+    <img class="pfp" src="../../pfp.png" alt="Matteo Scaringi, with filter." />
   </div>
 </main>
 
@@ -35,9 +35,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    // margin: 10px;
-    // border-radius: 5px;
   }
 
   .greeting {
@@ -49,8 +46,8 @@
   }
 
   .pfp {
-    width: 281px;
-    height: 281px;
+    width: 251px;
+    height: 251px;
     border-radius: 100%;
   }
 
