@@ -1,14 +1,11 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
+  import Navbar from "./Navbar.svelte";
 </script>
 
 <main>
   <div class="greeting">
-    <img
-      class="pfp"
-      src="../../pfp-filter.png"
-      alt="Matteo Scaringi, with filter."
-    />
+    <img class="pfp" src="../../pfp.png" alt="Matteo Scaringi, with filter." />
 
     <div class="greeting-text">
       <h1>Hello there!</h1>
@@ -16,8 +13,12 @@
 
       <div class="social-icons">
         <a href="" target="_blank"><Icon icon="ri:discord-fill" /></a>
-        <a href="https://x.com/matte0_s" target="_blank"><Icon icon="ri:twitter-x-fill" /></a>
-        <a href="https://github.com/matteoscaringi/" target="_blank"><Icon icon="ri:github-fill" /></a>
+        <a href="https://x.com/matte0_s" target="_blank"
+          ><Icon icon="ri:twitter-x-fill" /></a
+        >
+        <a href="https://github.com/matteoscaringi/" target="_blank"
+          ><Icon icon="ri:github-fill" /></a
+        >
       </div>
     </div>
   </div>
@@ -27,7 +28,7 @@
   @import "../app.css";
 
   main {
-    background-color: #92afd7;
+    background-color: #f6debf;
     height: 35vh;
 
     display: flex;
@@ -35,8 +36,8 @@
     justify-content: center;
     align-items: center;
 
-    margin: 5px;
-    border-radius: 5px;
+    // margin: 10px;
+    // border-radius: 5px;
   }
 
   .greeting {
@@ -54,15 +55,16 @@
   }
 
   .greeting-text {
-    margin-left: 30px;
+    margin-left: 50px;
     line-height: 10px;
     font-family: Montserrat, sans-serif;
 
-    color: white;
+    color: black;
   }
 
-  a, a:visited {
-    color: white;
+  a,
+  a:visited {
+    color: black;
     text-emphasis: none;
     transition-duration: 250ms;
 

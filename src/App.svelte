@@ -1,14 +1,17 @@
 <script lang="ts">
-  import Greeting from './lib/Greeting.svelte';
+  import Greeting from "./lib/Greeting.svelte";
+  import About from "./lib/About.svelte";
+  import Navbar from "./lib/Navbar.svelte";
 </script>
 
-<main>
- <Greeting/>
-</main>
+<Navbar />
+<Greeting />
+<About />
 
 <style lang="scss">
-  main{
-    padding: none;
-    margin: none;
+  :global(body) {
+    background-color: #cfaf92;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
   }
 </style>
