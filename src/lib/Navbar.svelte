@@ -6,8 +6,6 @@
 </nav>
 
 <style lang="scss">
-  @import "../app.css";
-
   .navbar,
   ul {
     display: flex;
@@ -21,6 +19,7 @@
 
   .navbar {
     padding: 25px;
+    padding-left: 60px;
     background-color: #f6debf;
 
     @media (max-width: 768px) {

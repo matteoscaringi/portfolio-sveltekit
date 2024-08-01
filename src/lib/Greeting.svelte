@@ -7,7 +7,7 @@
   <div class="greeting">
     <div class="greeting-text">
       <h1>Hello there!</h1>
-      <h3>I'm Matteo, your average developer and video editor.</h3>
+      <h3>I'm Matteo, your passionate developer and video editor.</h3>
 
       <div class="social-icons">
         <a href="" target="_blank"><Icon icon="ri:discord-fill" /></a>
@@ -33,7 +33,6 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
   }
 
@@ -52,9 +51,10 @@
   }
 
   .greeting-text {
-    margin-left: 50px;
     line-height: 10px;
     font-family: Montserrat, sans-serif;
+
+    margin-left: 65px;
 
     color: black;
   }
@@ -71,5 +71,9 @@
   a:hover {
     color: #6d6d6d;
     transition-duration: 250ms;
+  }
+
+  img {
+    margin-left: 750px;
   }
 </style>

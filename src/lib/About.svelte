@@ -1,7 +1,9 @@
 <script lang="ts">
 </script>
 
-<main></main>
+<main id="about">
+    
+</main>
 
 <style lang="scss">
   main {
