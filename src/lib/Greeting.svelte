@@ -34,6 +34,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+      height: 50vh;
+    }
   }
 
   .greeting {
@@ -46,21 +50,54 @@
 
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+
+
+      padding-top: 15px;
+
+      padding-left: 0px;
+      padding-right: 0px;
+
+      width: 100%;
+      height: 55vh;
+    }
   }
 
   .pfp {
     width: 251px;
     height: 251px;
     border-radius: 100%;
+
+    @media screen and (max-width: 768px) {
+      width: 200px;
+      height: 200px;
+
+      padding-bottom: 15px;
+    }
   }
 
   .greeting-text {
     font-family: Montserrat, sans-serif;
     color: black;
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      width: 85%;
+
+      font-size: 14px;
+    }
   }
 
   .social-icons{
     margin-top: 10px;
+
+    @media screen and (max-width: 768px) {
+      padding-bottom: 15px;
+      
+    }
   }
 
   h3, h1 {
