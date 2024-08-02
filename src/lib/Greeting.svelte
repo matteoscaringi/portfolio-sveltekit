@@ -35,8 +35,12 @@
     flex-direction: row;
     align-items: center;
 
+    transition-duration: 250ms;
+
     @media screen and (max-width: 768px) {
-      height: 50vh;
+      height: 60vh;
+
+      transition-duration: 250ms;
     }
   }
 
@@ -51,6 +55,8 @@
     justify-content: space-between;
     align-items: center;
 
+    transition-duration: 250ms;
+
     @media screen and (max-width: 768px) {
       flex-direction: column-reverse;
       justify-content: center;
@@ -63,6 +69,8 @@
 
       width: 100%;
       height: 55vh;
+
+      transition-duration: 250ms;
     }
   }
 
@@ -71,11 +79,15 @@
     height: 251px;
     border-radius: 100%;
 
+    transition-duration: 250ms;
+
     @media screen and (max-width: 768px) {
       width: 200px;
       height: 200px;
 
-      padding-bottom: 15px;
+      padding-bottom: 30px;
+
+      transition-duration: 250ms;
     }
   }
 
@@ -83,23 +95,36 @@
     font-family: Montserrat, sans-serif;
     color: black;
 
+    transition-duration: 250ms;
+
     @media screen and (max-width: 768px) {
       text-align: center;
-      width: 85%;
+      max-width: 65%;
 
       font-size: 14px;
+
+      transition-duration: 250ms;
     }
   }
 
   .social-icons{
     margin-top: 10px;
 
+
+    transition-duration: 250ms;
+
     @media screen and (max-width: 768px) {
       padding-bottom: 15px;
-      
+      margin-top: 20px;
+
+      transition-duration: 250ms;
     }
   }
 
+  h1 {
+    padding-bottom: 8px;
+  }
+    
   h3, h1 {
     margin-top: 0px;
     margin-bottom: 0px;

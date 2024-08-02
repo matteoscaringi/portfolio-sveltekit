@@ -12,8 +12,12 @@
     align-items: center;
     gap: 20px;
 
+    transition-duration: 250ms;
+    
     @media (max-width: 768px) {
       gap: 10px;
+
+      transition-duration: 250ms;
     }
   }
 
@@ -22,9 +26,13 @@
     padding-left: 60px;
     background-color: #f6debf;
 
+    transition-duration: 250ms;
+
     @media (max-width: 768px) {
       padding: 30px 25px;
       justify-content: initial;
+
+      transition-duration: 250ms;
     }
   }
 
